@@ -1,2 +1,2 @@
-A=list(input().split())
-print(int(A[0],int(A[1])))
+N,B=input().split()
+print(int(N,int(B)))
