@@ -1,0 +1,10 @@
+{
+    "browser": ["Whale", "Chrome"],
+    "site url": ["acmicpc.net"],
+    "submit url": "acmicpc.net/submit/",
+    "path": "E:/algorithm-study/BEAKJOON/",
+    "file name": ["number","_","name"],
+    "programing language": ".py",
+    "ide": "code",
+    "git automation": ["add", "commit"]
+}
