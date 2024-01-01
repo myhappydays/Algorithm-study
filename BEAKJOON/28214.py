@@ -3,11 +3,8 @@ B = list(map(int, input().split()))
 available = 0
 
 for i in range(N):
-    count = 0
-    for j in range(K):
-        if B[i*K+j] == 0:
-            count += 1
-    if count < P:
+    b = B[i*K:i*K+K]
+    if K - sum(b) < P:
         available += 1
 
 print(available)
